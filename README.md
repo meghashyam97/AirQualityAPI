@@ -45,6 +45,7 @@ The exposed routes can be checked using the following command
 ## Testing
 This app contains tests for all the components.
 The tests can be run using the following command
+
     bundle exec rspec   
 
 
