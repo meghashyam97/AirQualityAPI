@@ -19,34 +19,45 @@ A simple rails API app to fetch AQI data from Openweather APIs
 
 ## Setup
 1. Clone this repo
-    git clone https://github.com/meghashyam97/AirQualityAPI.git
+
+    ``git clone https://github.com/meghashyam97/AirQualityAPI.git``
 2. Install dependencies:
-    bundle install
+
+    ``bundle install``
 3. Database setup:
-    rails db:create
-    rails db:migrate
-    rails db:seed
+
+    ``rails db:create``
+
+    ``rails db:migrate``
+
+    ``rails db:seed``
 
 ## Usage
 The redis and postgres processes need to be running
 The frequency of the job to fetch the current AQI can be configured at "config/sidekiq-cron.yml". Uncomment the line to set a frequency of 30 seconds
-    # cron: "*/30 * * * * *"
+
+    ``# cron: "*/30 * * * * *"``
 
 1. Run the rails server
-    rails s 
+
+    ``rails s ``
+
 2. Run the sidekiq process
-    bundle exec sidekiq
+
+    ``bundle exec sidekiq``
 
 The jobs can be tracked through the sidekiq UI which is mounted at
-    http://localhost:3000/sidekiq/cron
+
+    ``http://localhost:3000/sidekiq/cron``
 
 The exposed routes can be checked using the following command
-    rails routes
+
+    ``rails routes``
 ## Testing
 This app contains tests for all the components.
 The tests can be run using the following command
 
-    bundle exec rspec   
+    ``bundle exec rspec``
 
 
 
