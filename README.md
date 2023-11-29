@@ -39,6 +39,9 @@ The frequency of the job to fetch the current AQI can be configured at "config/s
 
 The jobs can be tracked through the sidekiq UI which is mounted at
     http://localhost:3000/sidekiq/cron
+
+The exposed routes can be checked using the following command
+    rails routes
 ## Testing
 This app contains tests for all the components.
 The tests can be run using the following command
