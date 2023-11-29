@@ -47,6 +47,11 @@ The frequency of the job to fetch the current AQI can be configured at
 
     ``bundle exec sidekiq``
 
+Please remember to run the geo sync job before any other operation since that fills the lat and long of all locations which is further used to make all open weather API calls.
+
+`` POST: /api/v1/geo_data ``
+
+
 The jobs can be tracked through the sidekiq UI which is mounted at
 
     http://localhost:3000/sidekiq/cron
