@@ -2,14 +2,14 @@
 A simple rails API app to fetch AQI data from Openweather APIs
 
 ## Features
-1. Run a scheduled job to import current AQI for all locations.
-2. An API endpoint to trigger the historical import ( one entry per week over the last year ) for all locations
-3. An API endpoint to trigger the geo sync job to update the latitude and longitude of the locations
+1. Run a scheduled job to import current AQI for all locations. ( enabled by default at 1 hr interval ,see below for information to edit the frequency)
+2. An API endpoint to trigger the historical import ( one entry per week over the last year ) for all locations ( POST: /api/v1/aqi_data )
+3. An API endpoint to trigger the geo sync job to update the latitude and longitude of the locations ( POST: /api/v1/geo_data )
 4. API endpoints for
-    - Get the most recent AQI for all locations.
-    - Get average AQI per month per location for all locations.
-    - Get average AQI per location for all locations.
-    - Get average AQI per state for all locations in the DB
+    - Get the most recent AQI for all locations.(GET: /api/v1/air_qualities/most_recent_per_location)
+    - Get average AQI per month per location for all locations.(GET: /api/v1/air_qualities/average_per_month_per_location)
+    - Get average AQI per location for all locations.(GET: /api/v1/air_qualities/average_per_location)
+    - Get average AQI per state for all locations in the DB(GET: /api/v1/air_qualities/average_per_state)
 
 ## Prequisites
 1. Ruby
