@@ -1,19 +1,15 @@
 class GeoDataUpdateJob < ApplicationJob
     queue_as :default
   
-    def perform(*args)
-        locations = Location.all()
+    def perform(location_id)
         Rails.logger.info(job_id)
         job_tracker = ImportJob.find_by(job_id: job_id)
         job_tracker = ImportJob.create_for_job('GeoDataUpdateJob' , job_id) unless job_tracker.present?
         job_tracker.update_status('In Progress')
-
+        location = Location.find(location_id)
         begin
-        locations.each do |location|
             update_location_coordinates(location)
-        end
-
-        job_tracker.update_status('Completed')
+            job_tracker.update_status('Completed')
         rescue StandardError => e
         job_tracker.log_error(e)
         should_retry = job_tracker.retry_or_fail(e)

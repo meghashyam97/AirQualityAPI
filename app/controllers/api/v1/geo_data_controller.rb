@@ -3,9 +3,12 @@ module Api
         class GeoDataController < ApplicationController
             def create
                 # Enqueue the job using Sidekiq
-                job_tracker_id = GeoDataUpdateJob.perform_later()
+                locations = Location.all()
+                locations.each do |location|
+                    job_tracker_id = GeoDataUpdateJob.perform_later(location.id)
+                end
 
-                render json: { message: 'Geo data update job has been enqueued.', job_tracker_id: job_tracker_id }
+                render json: { message: 'Geo data update job has been enqueued.' }
             end
         end
     end
