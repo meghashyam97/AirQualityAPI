@@ -1,0 +1,2123 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1669688719&lat=12.9767936&lon=77.590082&start=1669685119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1669688719&lat=12.98&lon=77.59&start=1669685119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":827.79,"no":0.12,"no2":25.02,"o3":70.1,"so2":15.74,"pm2_5":51.63,"pm10":55.71,"nh3":1.76},"dt":1669687200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:10 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1670293519&lat=12.9767936&lon=77.590082&start=1670289919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1670293519&lat=12.98&lon=77.59&start=1670289919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":707.63,"no":0.02,"no2":16.79,"o3":81.54,"so2":7.27,"pm2_5":34.28,"pm10":37.18,"nh3":1.58},"dt":1670292000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:11 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1670898319&lat=12.9767936&lon=77.590082&start=1670894719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1670898319&lat=12.98&lon=77.59&start=1670894719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":660.9,"no":2.1,"no2":30.16,"o3":6.97,"so2":14.19,"pm2_5":19.75,"pm10":21.18,"nh3":0.62},"dt":1670896800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:12 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1671503119&lat=12.9767936&lon=77.590082&start=1671499519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1671503119&lat=12.98&lon=77.59&start=1671499519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":600.81,"no":0.24,"no2":26.05,"o3":47.21,"so2":6.02,"pm2_5":43.1,"pm10":49.03,"nh3":2.31},"dt":1671501600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:13 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1672107919&lat=12.9767936&lon=77.590082&start=1672104319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1672107919&lat=12.98&lon=77.59&start=1672104319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":473.98,"no":0.52,"no2":17.48,"o3":16.09,"so2":7.45,"pm2_5":8.56,"pm10":10.81,"nh3":1.92},"dt":1672106400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:13 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1672712719&lat=12.9767936&lon=77.590082&start=1672709119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1672712719&lat=12.98&lon=77.59&start=1672709119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":1148.22,"no":7.71,"no2":45.24,"o3":5.32,"so2":8.46,"pm2_5":67.1,"pm10":78.51,"nh3":3.2},"dt":1672711200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:14 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1673317519&lat=12.9767936&lon=77.590082&start=1673313919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:14 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1673317519&lat=12.98&lon=77.59&start=1673313919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":741,"no":0.37,"no2":33.59,"o3":42.56,"so2":6.85,"pm2_5":61.5,"pm10":71.44,"nh3":2.44},"dt":1673316000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:14 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1673922319&lat=12.9767936&lon=77.590082&start=1673918719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '194'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1673922319&lat=12.98&lon=77.59&start=1673918719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":947.95,"no":0.33,"no2":43.53,"o3":40.77,"so2":15.74,"pm2_5":107.46,"pm10":116.26,"nh3":1.6},"dt":1673920800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:15 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1674527119&lat=12.9767936&lon=77.590082&start=1674523519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1674527119&lat=12.98&lon=77.59&start=1674523519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":467.3,"no":0.11,"no2":18.68,"o3":45.06,"so2":7.45,"pm2_5":9.39,"pm10":12.49,"nh3":2.06},"dt":1674525600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:15 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1675131919&lat=12.9767936&lon=77.590082&start=1675128319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:15 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1675131919&lat=12.98&lon=77.59&start=1675128319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":680.92,"no":0.08,"no2":21.93,"o3":42.56,"so2":7.45,"pm2_5":21.48,"pm10":25.2,"nh3":2.56},"dt":1675130400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:15 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1675736719&lat=12.9767936&lon=77.590082&start=1675733119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1675736719&lat=12.98&lon=77.59&start=1675733119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":1842.5,"no":22.35,"no2":70.6,"o3":0.8,"so2":12.99,"pm2_5":127.04,"pm10":147.11,"nh3":4.5},"dt":1675735200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1676341519&lat=12.9767936&lon=77.590082&start=1676337919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '195'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1676341519&lat=12.98&lon=77.59&start=1676337919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":1281.74,"no":0.75,"no2":61.69,"o3":52.21,"so2":21.7,"pm2_5":131.97,"pm10":147.62,"nh3":6.71},"dt":1676340000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1676946319&lat=12.9767936&lon=77.590082&start=1676942719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1676946319&lat=12.98&lon=77.59&start=1676942719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":974.66,"no":0.92,"no2":45.93,"o3":37.19,"so2":19.55,"pm2_5":78.47,"pm10":89.68,"nh3":7.73},"dt":1676944800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1677551119&lat=12.9767936&lon=77.590082&start=1677547519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1677551119&lat=12.98&lon=77.59&start=1677547519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":1001.36,"no":4.08,"no2":45.24,"o3":17.7,"so2":19.31,"pm2_5":56.61,"pm10":64.11,"nh3":8.36},"dt":1677549600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1678155919&lat=12.9767936&lon=77.590082&start=1678152319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1678155919&lat=12.98&lon=77.59&start=1678152319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":741,"no":1.42,"no2":35.64,"o3":31.83,"so2":9.3,"pm2_5":42.19,"pm10":52.06,"nh3":8.11},"dt":1678154400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1678760719&lat=12.9767936&lon=77.590082&start=1678757119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '194'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1678760719&lat=12.98&lon=77.59&start=1678757119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":1562.12,"no":20.56,"no2":50.72,"o3":2.03,"so2":13.95,"pm2_5":71.5,"pm10":83.46,"nh3":11.78},"dt":1678759200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:16 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1679365519&lat=12.9767936&lon=77.590082&start=1679361919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1679365519&lat=12.98&lon=77.59&start=1679361919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":934.6,"no":10.51,"no2":34.96,"o3":7.15,"so2":10.01,"pm2_5":32.48,"pm10":50.25,"nh3":9.63},"dt":1679364000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:17 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1679970319&lat=12.9767936&lon=77.590082&start=1679966719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1679970319&lat=12.98&lon=77.59&start=1679966719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":2670.29,"no":90.3,"no2":43.87,"o3":0.68,"so2":23.84,"pm2_5":70.65,"pm10":89.25,"nh3":22.8},"dt":1679968800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:17 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1680575119&lat=12.9767936&lon=77.590082&start=1680571519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1680575119&lat=12.98&lon=77.59&start=1680571519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":894.55,"no":1.87,"no2":43.18,"o3":22.71,"so2":12.87,"pm2_5":30.81,"pm10":37.11,"nh3":6.02},"dt":1680573600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:17 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1681179919&lat=12.9767936&lon=77.590082&start=1681176319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1681179919&lat=12.98&lon=77.59&start=1681176319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1028.06,"no":15.65,"no2":32.22,"o3":8.05,"so2":9.3,"pm2_5":32,"pm10":43.97,"nh3":5.19},"dt":1681178400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:17 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1681784719&lat=12.9767936&lon=77.590082&start=1681781119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1681784719&lat=12.98&lon=77.59&start=1681781119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":794.41,"no":2.1,"no2":32.9,"o3":65.8,"so2":37.67,"pm2_5":58.67,"pm10":70.52,"nh3":7.03},"dt":1681783200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:17 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1682389519&lat=12.9767936&lon=77.590082&start=1682385919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1682389519&lat=12.98&lon=77.59&start=1682385919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1081.47,"no":8.49,"no2":42.84,"o3":5.54,"so2":13.23,"pm2_5":29.11,"pm10":34.9,"nh3":3.58},"dt":1682388000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:18 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1682994319&lat=12.9767936&lon=77.590082&start=1682990719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1682994319&lat=12.98&lon=77.59&start=1682990719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1121.52,"no":9.39,"no2":36.33,"o3":5.28,"so2":10.37,"pm2_5":30.05,"pm10":34.95,"nh3":4.18},"dt":1682992800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:18 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1683599119&lat=12.9767936&lon=77.590082&start=1683595519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1683599119&lat=12.98&lon=77.59&start=1683595519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":867.84,"no":13.19,"no2":22.28,"o3":5.28,"so2":7.63,"pm2_5":17.3,"pm10":21.2,"nh3":3.89},"dt":1683597600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:18 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1684203919&lat=12.9767936&lon=77.590082&start=1684200319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1684203919&lat=12.98&lon=77.59&start=1684200319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":814.44,"no":16.32,"no2":20.05,"o3":5.19,"so2":7.45,"pm2_5":19.87,"pm10":29.12,"nh3":3.74},"dt":1684202400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:18 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1684808719&lat=12.9767936&lon=77.590082&start=1684805119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:18 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1684808719&lat=12.98&lon=77.59&start=1684805119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1214.98,"no":5.03,"no2":47.3,"o3":13.23,"so2":10.01,"pm2_5":42,"pm10":48.34,"nh3":4.02},"dt":1684807200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:18 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1685413519&lat=12.9767936&lon=77.590082&start=1685409919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1685413519&lat=12.98&lon=77.59&start=1685409919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1148.22,"no":16.32,"no2":37.7,"o3":3,"so2":9.06,"pm2_5":32.41,"pm10":42.6,"nh3":5.64},"dt":1685412000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:19 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1686018319&lat=12.9767936&lon=77.590082&start=1686014719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:19 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1686018319&lat=12.98&lon=77.59&start=1686014719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":400.54,"no":2.18,"no2":13.37,"o3":14.84,"so2":5.54,"pm2_5":5.4,"pm10":9.2,"nh3":2.63},"dt":1686016800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:19 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1686623119&lat=12.9767936&lon=77.590082&start=1686619519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1686623119&lat=12.98&lon=77.59&start=1686619519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":357.15,"no":2.68,"no2":10.02,"o3":8.85,"so2":4.29,"pm2_5":2.25,"pm10":3.41,"nh3":2.09},"dt":1686621600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:20 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1687227919&lat=12.9767936&lon=77.590082&start=1687224319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '185'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1687227919&lat=12.98&lon=77.59&start=1687224319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":554.08,"no":7.6,"no2":15.77,"o3":1.24,"so2":6.2,"pm2_5":7.3,"pm10":9.2,"nh3":2.22},"dt":1687226400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:20 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1687832719&lat=12.9767936&lon=77.590082&start=1687829119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1687832719&lat=12.98&lon=77.59&start=1687829119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":427.25,"no":2.15,"no2":15.59,"o3":11.62,"so2":5.72,"pm2_5":4.05,"pm10":6.05,"nh3":2.66},"dt":1687831200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:20 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1688437519&lat=12.9767936&lon=77.590082&start=1688433919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:20 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1688437519&lat=12.98&lon=77.59&start=1688433919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":297.07,"no":0.78,"no2":8.65,"o3":15.02,"so2":3.04,"pm2_5":1.37,"pm10":2.11,"nh3":1.65},"dt":1688436000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:20 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1689042319&lat=12.9767936&lon=77.590082&start=1689038719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1689042319&lat=12.98&lon=77.59&start=1689038719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":397.21,"no":2.04,"no2":14.05,"o3":7.33,"so2":5.19,"pm2_5":4.9,"pm10":6.46,"nh3":1.96},"dt":1689040800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:21 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1689647119&lat=12.9767936&lon=77.590082&start=1689643519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1689647119&lat=12.98&lon=77.59&start=1689643519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":290.39,"no":0.69,"no2":8.83,"o3":15.2,"so2":2.95,"pm2_5":1.76,"pm10":2.74,"nh3":1.74},"dt":1689645600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:21 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1690251919&lat=12.9767936&lon=77.590082&start=1690248319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:21 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1690251919&lat=12.98&lon=77.59&start=1690248319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":300.41,"no":0.48,"no2":9.77,"o3":18.95,"so2":3.07,"pm2_5":1.77,"pm10":2.46,"nh3":1.2},"dt":1690250400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:21 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1690856719&lat=12.9767936&lon=77.590082&start=1690853119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1690856719&lat=12.98&lon=77.59&start=1690853119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":287.06,"no":0.26,"no2":9.42,"o3":17.17,"so2":2.98,"pm2_5":1.88,"pm10":2.69,"nh3":1.36},"dt":1690855200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:22 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1691461519&lat=12.9767936&lon=77.590082&start=1691457919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1691461519&lat=12.98&lon=77.59&start=1691457919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":383.85,"no":2.74,"no2":13.71,"o3":6.62,"so2":5.25,"pm2_5":4.84,"pm10":7.01,"nh3":2.25},"dt":1691460000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:22 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1692066319&lat=12.9767936&lon=77.590082&start=1692062719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:22 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1692066319&lat=12.98&lon=77.59&start=1692062719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":520.71,"no":7.6,"no2":16.28,"o3":2.35,"so2":7.45,"pm2_5":7.22,"pm10":10.57,"nh3":2.94},"dt":1692064800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:22 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1692671119&lat=12.9767936&lon=77.590082&start=1692667519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1692671119&lat=12.98&lon=77.59&start=1692667519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":567.44,"no":10.84,"no2":15.59,"o3":1.26,"so2":8.46,"pm2_5":7.11,"pm10":10.08,"nh3":3.45},"dt":1692669600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:23 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1693275919&lat=12.9767936&lon=77.590082&start=1693272319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1693275919&lat=12.98&lon=77.59&start=1693272319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":357.15,"no":3.63,"no2":11.31,"o3":4.83,"so2":5.25,"pm2_5":4.36,"pm10":6.64,"nh3":2.47},"dt":1693274400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:23 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1693880719&lat=12.9767936&lon=77.590082&start=1693877119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1693880719&lat=12.98&lon=77.59&start=1693877119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":417.23,"no":3.44,"no2":15.08,"o3":4.65,"so2":5.48,"pm2_5":6.92,"pm10":9.25,"nh3":3.42},"dt":1693879200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:23 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1694485519&lat=12.9767936&lon=77.590082&start=1694481919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '190'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1694485519&lat=12.98&lon=77.59&start=1694481919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":360.49,"no":1.58,"no2":11.82,"o3":10.55,"so2":4.05,"pm2_5":2.75,"pm10":3.83,"nh3":2.06},"dt":1694484000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:24 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1695090319&lat=12.9767936&lon=77.590082&start=1695086719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '188'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1695090319&lat=12.98&lon=77.59&start=1695086719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":377.18,"no":2.54,"no2":12.51,"o3":7.69,"so2":4.89,"pm2_5":3.06,"pm10":4.6,"nh3":2.06},"dt":1695088800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:24 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1695695119&lat=12.9767936&lon=77.590082&start=1695691519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:24 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '189'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1695695119&lat=12.98&lon=77.59&start=1695691519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":514.03,"no":7.26,"no2":15.08,"o3":1.33,"so2":6.79,"pm2_5":6.29,"pm10":8.64,"nh3":2.85},"dt":1695693600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:24 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1696299919&lat=12.9767936&lon=77.590082&start=1696296319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1696299919&lat=12.98&lon=77.59&start=1696296319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":1},"components":{"co":500.68,"no":1.62,"no2":19.54,"o3":14.66,"so2":6.32,"pm2_5":7.28,"pm10":10.54,"nh3":2.53},"dt":1696298400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:25 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1696904719&lat=12.9767936&lon=77.590082&start=1696901119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '194'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1696904719&lat=12.98&lon=77.59&start=1696901119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":1949.31,"no":46.49,"no2":31.87,"o3":0.55,"so2":10.01,"pm2_5":69.39,"pm10":74.49,"nh3":3.89},"dt":1696903200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:25 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1697509519&lat=12.9767936&lon=77.590082&start=1697505919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1697509519&lat=12.98&lon=77.59&start=1697505919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":921.25,"no":11.06,"no2":37.36,"o3":0.7,"so2":23.84,"pm2_5":27.52,"pm10":33.06,"nh3":4.94},"dt":1697508000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:25 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1698114319&lat=12.9767936&lon=77.590082&start=1698110719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '195'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1698114319&lat=12.98&lon=77.59&start=1698110719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":4},"components":{"co":1575.47,"no":36.66,"no2":44.55,"o3":2.68,"so2":12.87,"pm2_5":53.33,"pm10":68.19,"nh3":11.91},"dt":1698112800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:25 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1698719119&lat=12.9767936&lon=77.590082&start=1698715519
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '191'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1698719119&lat=12.98&lon=77.59&start=1698715519"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":680.92,"no":0.17,"no2":23.99,"o3":53.64,"so2":9.18,"pm2_5":10.6,"pm10":13.05,"nh3":2.53},"dt":1698717600}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:26 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1699323919&lat=12.9767936&lon=77.590082&start=1699320319
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '194'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1699323919&lat=12.98&lon=77.59&start=1699320319"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":3},"components":{"co":1642.23,"no":43.36,"no2":23.65,"o3":0.22,"so2":11.09,"pm2_5":37.96,"pm10":43.88,"nh3":5.89},"dt":1699322400}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:26 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1699928719&lat=12.9767936&lon=77.590082&start=1699925119
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1699928719&lat=12.98&lon=77.59&start=1699925119"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":5},"components":{"co":580.79,"no":0.06,"no2":14.91,"o3":95.84,"so2":5.66,"pm2_5":91.39,"pm10":107.29,"nh3":3.45},"dt":1699927200}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:26 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1700533519&lat=12.9767936&lon=77.590082&start=1700529919
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '192'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1700533519&lat=12.98&lon=77.59&start=1700529919"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":627.52,"no":0.71,"no2":23.65,"o3":36.84,"so2":6.62,"pm2_5":13.68,"pm10":17.25,"nh3":3.39},"dt":1700532000}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:27 GMT
+- request:
+    method: get
+    uri: https://api.openweathermap.org/data/2.5/air_pollution/history?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&end=1701138319&lat=12.9767936&lon=77.590082&start=1701134719
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:29:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '193'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/air_pollution/history?end=1701138319&lat=12.98&lon=77.59&start=1701134719"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: UTF-8
+      string: '{"coord":{"lon":77.5901,"lat":12.9768},"list":[{"main":{"aqi":2},"components":{"co":600.82,"no":0.95,"no2":24.68,"o3":14.31,"so2":12.64,"pm2_5":14.03,"pm10":17.25,"nh3":2.85},"dt":1701136800}]}'
+  recorded_at: Wed, 29 Nov 2023 01:29:27 GMT
+recorded_with: VCR 6.2.0

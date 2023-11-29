@@ -1,0 +1,5 @@
+aqi_hourly_import:
+  cron: "0 * * * *"
+  # cron: "*/30 * * * * *"
+  class: ImportCurrentAqiJob
+  queue: default
