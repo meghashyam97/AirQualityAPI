@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.openweathermap.org/geo/1.0/direct?appid=63fca8ba7fe1a4df584d3ca19e3cbd37&limit=1&q=Bangalore,%20Karnataka,%20India
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 29 Nov 2023 01:05:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '907'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/geo/1.0/direct?limit=1&q=bangalore%2c%20karnataka%2c%20india"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sibmFtZSI6IkJlbmdhbHVydSIsImxvY2FsX25hbWVzIjp7InBhIjoi4Kis4KmI4KiC4KiX4Kiy4KmB4Kiw4KmCIiwiYm4iOiLgpqzgp4fgppngp43gppfgpr7gprLgp4HgprDgp4EiLCJlbiI6IkJlbmdhbHVydSIsIml0IjoiQmFuZ2Fsb3JlIiwiemgiOiLnj63liqDnvZflsJQiLCJoZSI6IteR16DXktec15XXqCIsInRhIjoi4K6q4K+G4K6Z4K+N4K6V4K6z4K+C4K6w4K+BIiwiZGUiOiJCYW5nYWxvcmUiLCJrbiI6IuCyrOCzhuCyguCyl+Cys+CzguCysOCzgSIsImVsIjoizpzPgM6xzr3Os866zrHOu8+Mz4EiLCJhcyI6IuCmrOCmvuCmguCml+CmvuCmsuCni+CnsCIsInRoIjoi4Lia4Lix4LiH4LiE4Liy4Lil4Lit4Lij4LmMIiwidXIiOiLYqNmG2q/ZhNmI2LEiLCJndSI6IuCqrOCrh+CqguCql+CqsuCri+CqsCIsIm1zIjoiQmFuZ2Fsb3JlIiwibXIiOiLgpKzgpILgpJfgpLPgpYLgpLAiLCJqYSI6IuODkOODs+OCrOODreODvOODqyIsInRlIjoi4LCs4LGG4LCC4LCX4LCz4LGC4LCw4LGBIiwib2MiOiJCZW5nYWx1cmkiLCJtbCI6IuC0rOC1huC0guC0l+C0s+C1guC0sOC1gSIsIm15Ijoi4YCY4YCU4YC64YCC4YCc4YCt4YCv4YCZ4YC84YCt4YCv4YC3Iiwib3IiOiLgrKzgrYfgrJngrY3grJfgrL7grLPgrYHgrLDgrYEiLCJ1ayI6ItCR0LXQvdCz0LDQu9GD0YDRgyIsImtvIjoi67K16rCI66Oo66OoIiwiY3MiOiJCZW5nYWzDunJ1IiwiYXIiOiLYqNmG2LrYp9mE2YjYsSIsImJlIjoi4Kas4KeH4KaZ4KeN4KaX4Ka+4Kay4KeC4Kaw4KeBIiwicnUiOiLQkdCw0L3Qs9Cw0LvQvtGAIiwiZnIiOiJCYW5nYWxvcmUiLCJoaSI6IuCkrOClh+CkguCkl+CksuClgeCksOClgSJ9LCJsYXQiOjEyLjk3Njc5MzYsImxvbiI6NzcuNTkwMDgyLCJjb3VudHJ5IjoiSU4iLCJzdGF0ZSI6Ikthcm5hdGFrYSJ9XQ==
+  recorded_at: Wed, 29 Nov 2023 01:05:11 GMT
+recorded_with: VCR 6.2.0
