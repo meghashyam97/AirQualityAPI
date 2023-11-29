@@ -15,7 +15,7 @@ RSpec.describe ImportAqiHistoryJob, type: :job do
 
     # Enqueue the job
     perform_enqueued_jobs do
-      ImportAqiHistoryJob.perform_later
+      ImportAqiHistoryJob.perform_later(location.id)
     end
 
     # Assert that the job has been performed
@@ -36,7 +36,7 @@ RSpec.describe ImportAqiHistoryJob, type: :job do
 
     # Enqueue the job
     perform_enqueued_jobs do
-      ImportAqiHistoryJob.perform_later
+      ImportAqiHistoryJob.perform_later(location.id)
     end
 
     # Assert that the job status has been updated to 'Failed'

@@ -11,7 +11,7 @@ RSpec.describe GeoDataUpdateJob, type: :job do
 
     # Enqueue the job
     perform_enqueued_jobs do
-      GeoDataUpdateJob.perform_later
+      GeoDataUpdateJob.perform_later(location.id)
     end
 
     # Assert that the job has been performed
@@ -33,7 +33,7 @@ RSpec.describe GeoDataUpdateJob, type: :job do
 
     # Enqueue the job
     perform_enqueued_jobs do
-      GeoDataUpdateJob.perform_later
+      GeoDataUpdateJob.perform_later(location.id)
     end
 
     # Assert that the job status has been updated to 'Failed'
